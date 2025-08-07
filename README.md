@@ -1,0 +1,1 @@
+A modern customer support chatbot built with Django 5.2 backend, Google Gemini AI, and Vue with Vite as frontend.

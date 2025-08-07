@@ -1,0 +1,16 @@
+{
+  "name": "customer-support-system",
+  "version": "1.0.0",
+  "description": "Customer Support System with Django backend and Vue.js frontend",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && pip install -r requirements.txt",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python manage.py runserver",
+    "build:frontend": "cd frontend && npm run build",
+    "setup": "npm run install:frontend && npm run install:backend"
+  },
+  "keywords": ["customer-support", "django", "vue", "chatbot", "ai"],
+  "author": "",
+  "license": "MIT"
+}
